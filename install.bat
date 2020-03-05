@@ -1,0 +1,1 @@
+robocopy . %USERPROFILE%\.qgis2\python\plugins\fdtm /CREATE

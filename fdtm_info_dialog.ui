@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>544</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>project summary</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>9</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QTableWidget" name="tableWidget_2">
+         <row>
+          <property name="text">
+           <string>interventi di EP</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>interventi di EA</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>interventi di WR</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>interventi di WDS</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Totali</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>N. Interventi</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Sup. mq</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Sviluppo ml</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Costo</string>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>12</string>
+          </property>
+         </item>
+         <item row="0" column="1">
+          <property name="text">
+           <string>40000</string>
+          </property>
+         </item>
+         <item row="0" column="2">
+          <property name="text">
+           <string>4000</string>
+          </property>
+         </item>
+         <item row="0" column="3">
+          <property name="text">
+           <string>345634</string>
+          </property>
+         </item>
+         <item row="1" column="0">
+          <property name="text">
+           <string>2</string>
+          </property>
+         </item>
+         <item row="1" column="1">
+          <property name="text">
+           <string>5000</string>
+          </property>
+         </item>
+         <item row="1" column="2">
+          <property name="text">
+           <string>1200</string>
+          </property>
+         </item>
+         <item row="1" column="3">
+          <property name="text">
+           <string>345634</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>4</string>
+          </property>
+         </item>
+         <item row="2" column="1">
+          <property name="text">
+           <string>354645</string>
+          </property>
+         </item>
+         <item row="2" column="2">
+          <property name="text">
+           <string>54654</string>
+          </property>
+         </item>
+         <item row="2" column="3">
+          <property name="text">
+           <string>234667</string>
+          </property>
+         </item>
+         <item row="3" column="0">
+          <property name="text">
+           <string>16</string>
+          </property>
+         </item>
+         <item row="3" column="1">
+          <property name="text">
+           <string>554</string>
+          </property>
+         </item>
+         <item row="3" column="2">
+          <property name="text">
+           <string>45435</string>
+          </property>
+         </item>
+         <item row="3" column="3">
+          <property name="text">
+           <string>5355</string>
+          </property>
+         </item>
+         <item row="4" column="0">
+          <property name="text">
+           <string>345</string>
+          </property>
+         </item>
+         <item row="4" column="1">
+          <property name="text">
+           <string>45</string>
+          </property>
+         </item>
+         <item row="4" column="2">
+          <property name="text">
+           <string>56</string>
+          </property>
+         </item>
+         <item row="4" column="3">
+          <property name="text">
+           <string>566</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>EP summary</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QTableWidget" name="tableWidget">
+         <attribute name="verticalHeaderVisible">
+          <bool>false</bool>
+         </attribute>
+         <row>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>3</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>4</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>5</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>6</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>7</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>ID</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>desc</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>area</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>per</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>COST</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>SP</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>MP</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>MP_user</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>CW_EP</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>CW_drain</string>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>1</string>
+          </property>
+         </item>
+         <item row="0" column="1">
+          <property name="text">
+           <string>dfg</string>
+          </property>
+         </item>
+         <item row="0" column="2">
+          <property name="text">
+           <string>432</string>
+          </property>
+         </item>
+         <item row="0" column="3">
+          <property name="text">
+           <string>435</string>
+          </property>
+         </item>
+         <item row="0" column="4">
+          <property name="text">
+           <string>245</string>
+          </property>
+         </item>
+         <item row="0" column="5">
+          <property name="text">
+           <string>23445</string>
+          </property>
+         </item>
+         <item row="1" column="0">
+          <property name="text">
+           <string>2</string>
+          </property>
+         </item>
+         <item row="1" column="1">
+          <property name="text">
+           <string>vc</string>
+          </property>
+         </item>
+         <item row="1" column="2">
+          <property name="text">
+           <string>234</string>
+          </property>
+         </item>
+         <item row="1" column="3">
+          <property name="text">
+           <string>45</string>
+          </property>
+         </item>
+         <item row="1" column="4">
+          <property name="text">
+           <string>25</string>
+          </property>
+         </item>
+         <item row="1" column="5">
+          <property name="text">
+           <string>25</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>3</string>
+          </property>
+         </item>
+         <item row="2" column="1">
+          <property name="text">
+           <string>sdsd</string>
+          </property>
+         </item>
+         <item row="2" column="2">
+          <property name="text">
+           <string>234</string>
+          </property>
+         </item>
+         <item row="2" column="3">
+          <property name="text">
+           <string>2345</string>
+          </property>
+         </item>
+         <item row="2" column="4">
+          <property name="text">
+           <string>25</string>
+          </property>
+         </item>
+         <item row="3" column="0">
+          <property name="text">
+           <string>4</string>
+          </property>
+         </item>
+         <item row="3" column="1">
+          <property name="text">
+           <string>asdg</string>
+          </property>
+         </item>
+         <item row="3" column="2">
+          <property name="text">
+           <string>234</string>
+          </property>
+         </item>
+         <item row="3" column="3">
+          <property name="text">
+           <string>534</string>
+          </property>
+         </item>
+         <item row="3" column="4">
+          <property name="text">
+           <string>25</string>
+          </property>
+         </item>
+         <item row="4" column="0">
+          <property name="text">
+           <string>5</string>
+          </property>
+         </item>
+         <item row="4" column="1">
+          <property name="text">
+           <string>sdfg</string>
+          </property>
+         </item>
+         <item row="4" column="2">
+          <property name="text">
+           <string>456</string>
+          </property>
+         </item>
+         <item row="4" column="3">
+          <property name="text">
+           <string>234</string>
+          </property>
+         </item>
+         <item row="4" column="4">
+          <property name="text">
+           <string>235</string>
+          </property>
+         </item>
+         <item row="5" column="0">
+          <property name="text">
+           <string>6</string>
+          </property>
+         </item>
+         <item row="5" column="1">
+          <property name="text">
+           <string>sdfg</string>
+          </property>
+         </item>
+         <item row="5" column="2">
+          <property name="text">
+           <string>750</string>
+          </property>
+         </item>
+         <item row="5" column="3">
+          <property name="text">
+           <string>525</string>
+          </property>
+         </item>
+         <item row="5" column="4">
+          <property name="text">
+           <string>2354</string>
+          </property>
+         </item>
+         <item row="6" column="0">
+          <property name="text">
+           <string>7</string>
+          </property>
+         </item>
+         <item row="6" column="1">
+          <property name="text">
+           <string>sdf</string>
+          </property>
+         </item>
+         <item row="6" column="2">
+          <property name="text">
+           <string>4675</string>
+          </property>
+         </item>
+         <item row="6" column="3">
+          <property name="text">
+           <string>23</string>
+          </property>
+         </item>
+         <item row="6" column="4">
+          <property name="text">
+           <string>235</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>EA summary</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>WR summary</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tab_5">
+      <attribute name="title">
+       <string>WDS summary</string>
+      </attribute>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Dialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Dialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

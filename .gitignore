@@ -1,0 +1,15 @@
+*.pyc
+Makefile
+*.log
+help/
+i18n/
+.idea/
+.idea/*
+.DS_Store
+*~
+temp/*
+res/bak/*
+res/bak/
+__pycache__/
+__pycache__/*
+.coverage
