@@ -1,59 +1,65 @@
-# This file contains metadata for your plugin. Since
-# version 2.0 of QGIS this is the proper way to supply
-# information about a plugin. The old method of
-# embedding metadata in __init__.py will
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
 # is no longer supported since version 2.0.
 
 # This file should be included when you package your plugin.# Mandatory items:
 
 [general]
-name=brigaid
-qgisMinimumVersion=2.14
-description=testing brigaid
+name=Flood Defense
+qgisMinimumVersion=2.0
+description=Flood Defense: the Toolkit Method.
+about=Plugin for the Defense urban city from fludding
+      
+      The Flood Defense Toolkit Method (FDTM) is a planning
+  instrument aimed at providing a general evaluation of the
+  feasibility of a protection strategy against flooding for an 
+  urban area. Such strategy may include different kinds of 
+  technical and technological solutions and their mutual 
+  combinations which are site specific.
+
+  It has been developed as a QGIS plugin. It is based on a 
+  limited set of easily available data (DTM, buildings and 
+  streets map, land use, flooding map, etc.) and it guides the 
+  user through the design of protected areas and perimeters to 
+  which different kind of technical solutions can be assigned.
+
+  The plugin includes also a set of elements for a preliminary 
+  evaluation of rainwater management within the protected 
+  areas and perimeters. 
+ 
+  All the data are collected and ordered within a single 
+  project file which can be used as a base for a collaborative 
+  design process.
+  The plugin allows to print a report containing a key-map and 
+  tables with project data which can be used to easily compare 
+  different intervention strategies.
+  At the moment the manual is in italian. English version will
+  be available soon.
+
 version=0.6.2
-author=nn
-email=nn@nn.nn
+author=Thetis S.p.A.
+email=angiola.fanelli@thetis.it
 
-about=testing plugin
-
-tracker=nn@nn.nn
-repository=nn@nn.nn
 # End of mandatory metadata
 
-# Recommended items:
+# Optional items:
+
 
 # Uncomment the following line and add your changelog:
-changelog=r0.6.2
-  icons replacing - first edit - gui translations - first edit
-  r0.6.1
-  precessing issues fixed - debug enable/disable feature
-  r0.6
-  project print feature
-  r0.5.1
-  RC computation
-  r0.5
-  WR WDS implementation
-  check intersections logic
-  summary table widget
-  r0.4
-  unittest and test dataset
-  r0.3
-  EA EP costs computation feature
-  settings, info, EA, EP implementation
-  r0.2    
-  settings dialog first implementation
-  r0.1
-  mock-up
-
+changelog=Version 0.6.2
+      
+      
 # Tags are comma separated with spaces allowed
-tags=
+tags=flooding, protection, urban area
 
-homepage=
-category=Plugins
+homepage=https://github.com/angiolafanelli/FloodDefense
+tracker=https://github.com/angiolafanelli/FloodDefense
+repository=https://github.com/angiolafanelli/FloodDefense
 icon=icon.png
 # experimental flag
-experimental=True
+experimental=true
 
 # deprecated flag (applies to the whole plugin, not just a single version)
-deprecated=False
 
