@@ -55,7 +55,7 @@ changelog=Version 0.6.2
 tags=flooding, protection, urban area
 
 homepage=https://github.com/angiolafanelli/FloodDefense
-tracker=https://github.com/angiolafanelli/FloodDefense
+# tracker=https://github.com/angiolafanelli/FloodDefense
 repository=https://github.com/angiolafanelli/FloodDefense
 icon=icon.png
 # experimental flag
