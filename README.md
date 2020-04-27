@@ -65,7 +65,6 @@ To install the plug-in, simply select from the repository the Flood Defense plug
 
 ![image001.jpg](/Images/image001.jpg)
 
-
 Figure 1‑1 Plug-in command bar before the settings.
 
 In the stand-alone versions of Qgis 2.18 for the Windows application system, the file named "qgis_customwidgets.py" is not copied to the correct path of python. If the plug-in does not find this file, an error will occur. To solve the problem, simply copy the "qgis_customwidgets.py" file into the folder:
@@ -129,10 +128,12 @@ The plug-in needs that all the above listed data have the same geographical refe
 At the end of the shapefiles loading in the QGIS project, the user must save the project with a name and then set up the plug-in setting window by activating the button shown in Figure 2‑1.
 
 ![image002.jpg](/Images/image002.jpg)
+
 Figure 2‑1 starting button for the plug-in setting phase
 
  
 ![image003.png](/Images/image003.png)
+
 Figure 2‑2 Plug-in setting window.
 
  
@@ -150,6 +151,7 @@ The run-off coefficient is a non-dimensional parameter correlated to the amount 
 At the end of the setting phase, all the shapefiles necessary for the plug-in are automatically generated and loaded into the QGIS project. The panel (Figure 2‑3) shows the list of shapefiles that will later be populated by the individual protection measures designed by the user.
 
 ![image004.png](/Images/image004.png)
+
 Figure 2‑3 List of layers managed by the Plug-in.
 
  
@@ -159,6 +161,7 @@ Now all the plugin control buttons are activated and appear colored (Figure 2‑
  
 
 ![image005.png](/Images/image005.png)
+
 Figure 2‑4 Plug-in bar after the conclusion of the input data validation.
 
  
@@ -178,6 +181,7 @@ The first and simplest protection strategy of an area is represented by the crea
 The Figure 3‑1 shows the two setting windows of the EP characteristics. The user in this window is able to define all the geometric characteristics of the EP polygon just designed (area and perimeter). The window called "unit detail" also displays the minimum (SP) and maximum (MP) of the designed perimeter; in relation to these parameters the user will have to set the maximum protection quota (MPD). Furthermore, if there are roads that intersect the perimeter, the user can define their width (roads width): this data will be used to calculate the total run-off coefficient of the area.
 
 ![image006.jpg](/Images/image006.jpg)
+
 Figure 3‑1 Windows for the definition of the characteristics of the EP areas.
 
 In the second summary window for the EP parameters (“Run-off detail”) the soil coverage percentages (specific for that area) are automatically calculated (if the land use layer is set), or manually entered by the user. With this information, the plug-in returns the value of the average Run-off coefficient of the area and consequently the system is able to calculate the volume of water accumulated (CW) during the event.
@@ -187,12 +191,14 @@ An example of the structure and a description of the coding fields for the shape
 
  
 ![image007.jpg](/Images/image007.jpg)
+
 Table 3‑1 Structure of the Land use cover shapefile.
 
 
  
 
 The codification of the land use field (Desc_RC) must respect the classification shown in Table 3 2.
+
 ![image008.jpg](/Images/image008.jpg)
 
 Table 3‑2 Soil Coverage Classification and related Run off Coefficient (RC) value.
