@@ -128,12 +128,12 @@ The plug-in needs that all the above listed data have the same geographical refe
 2.2   Data input into the plug-in
 At the end of the shapefiles loading in the QGIS project, the user must save the project with a name and then set up the plug-in setting window by activating the button shown in Figure 2‑1.
 
-
+![image002.jpg](/Images/image002.jpg)
 Figure 2‑1 starting button for the plug-in setting phase
 
  
 
-
+![image003.jpg](/Images/image003.jpg)
 Figure 2‑2 Plug-in setting window.
 
  
@@ -150,7 +150,7 @@ The run-off coefficient is a non-dimensional parameter correlated to the amount 
 
 At the end of the setting phase, all the shapefiles necessary for the plug-in are automatically generated and loaded into the QGIS project. The panel (Figure 2‑3) shows the list of shapefiles that will later be populated by the individual protection measures designed by the user.
 
-
+![image004.jpg](/Images/image004.jpg)
 Figure 2‑3 List of layers managed by the Plug-in.
 
  
@@ -159,7 +159,7 @@ Now all the plugin control buttons are activated and appear colored (Figure 2‑
 
  
 
-
+![image005.jpg](/Images/image005.jpg)
 Figure 2‑4 Plug-in bar after the conclusion of the input data validation.
 
  
