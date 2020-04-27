@@ -265,6 +265,7 @@ Figure 3‑8 Window for defining options for "limited water_rec".
 3.4   WDS - Water Discharge System (WD)
 Once the receiving water areas are defined, it is necessary to create connections between the EP or EA and the drainage areas. The WD (Water Discharge System) button allows to edit the linear shapefile of the WDS: the user designs where to drain the accumulated water. Once this command is activated, the user will be able to draw the linear path from an EA (or EP) area to a WR perimeter (defined in the previous step) and the plug-in returns the calculations of the water balance by "virtually" moving the masses of water to the receptor bodies. Figure 3‑9 shows the screenshot for the characteristics of the connection pipes in order to drain the water.
 
+![image014.png](/Images/image014.png)
 
 Figure 3‑9 Window for defining the characteristics of the connecting pipes to move the masses of water.
 
@@ -272,6 +273,7 @@ Figure 3‑9 Window for defining the characteristics of the connecting pipes to 
 
 If there is a river or another water receptor (e.g. the sea) characterized by a significant capacity to receive water volumes, the user can draw a WD line that ends in this kind of receiving body, without the need to draw the receiving WR (Figure 3‑10).
 
+![image015.png](/Images/image015.png)
 
 Figure 3‑10 Setting up a receiving body with unlimited capacity
 
@@ -293,7 +295,7 @@ The types of valves that can be set are:
 
 -       Pump.
 
-
+![image016.jpg](/Images/image016.jpg)
 Figure 3‑12 Window for defining the types of valves that can be implemented in the plug-in.
 
  
