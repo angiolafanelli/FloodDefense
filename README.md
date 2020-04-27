@@ -62,7 +62,7 @@ The plug-in is downloadable from the Qgis official repository version 2.18 and i
 
 To install the plug-in, simply select from the repository the Flood Defense plugin and press “install”. After the installation, the manual and the libraries settings files are saved in the following path:
 
-https://github.com/angiolafanelli/FloodDefense/tree/master/FloodDefense_Images/image004.png)
+![image004](/FloodDefense_Images/image004.png)
 
 
 Figure 1‑1 Plug-in command bar before the settings.
