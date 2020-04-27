@@ -129,6 +129,7 @@ The plug-in needs that all the above listed data have the same geographical refe
 At the end of the shapefiles loading in the QGIS project, the user must save the project with a name and then set up the plug-in setting window by activating the button shown in Figure 2‑1.
 
 ![image002.jpg](/Images/image002.jpg)
+
 Figure 2‑1 starting button for the plug-in setting phase
 
  
