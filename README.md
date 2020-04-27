@@ -134,6 +134,7 @@ Figure 2‑1 starting button for the plug-in setting phase
 
  
 ![image003.png](/Images/image003.png)
+
 Figure 2‑2 Plug-in setting window.
 
  
