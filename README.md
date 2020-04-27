@@ -177,7 +177,7 @@ The first and simplest protection strategy of an area is represented by the crea
 
 The Figure 3‑1 shows the two setting windows of the EP characteristics. The user in this window is able to define all the geometric characteristics of the EP polygon just designed (area and perimeter). The window called "unit detail" also displays the minimum (SP) and maximum (MP) of the designed perimeter; in relation to these parameters the user will have to set the maximum protection quota (MPD). Furthermore, if there are roads that intersect the perimeter, the user can define their width (roads width): this data will be used to calculate the total run-off coefficient of the area.
 
-
+![image006.jpg](/Images/image006.jpg)
 Figure 3‑1 Windows for the definition of the characteristics of the EP areas.
 
 In the second summary window for the EP parameters (“Run-off detail”) the soil coverage percentages (specific for that area) are automatically calculated (if the land use layer is set), or manually entered by the user. With this information, the plug-in returns the value of the average Run-off coefficient of the area and consequently the system is able to calculate the volume of water accumulated (CW) during the event.
