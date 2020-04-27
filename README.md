@@ -129,12 +129,10 @@ The plug-in needs that all the above listed data have the same geographical refe
 At the end of the shapefiles loading in the QGIS project, the user must save the project with a name and then set up the plug-in setting window by activating the button shown in Figure 2‑1.
 
 ![image002.jpg](/Images/image002.jpg)
-
 Figure 2‑1 starting button for the plug-in setting phase
 
  
 ![image003.png](/Images/image003.png)
-
 Figure 2‑2 Plug-in setting window.
 
  
@@ -188,13 +186,14 @@ An example of the structure and a description of the coding fields for the shape
 
 
  
-
+![image007.jpg](/Images/image007.jpg)
 Table 3‑1 Structure of the Land use cover shapefile.
 
 
  
 
 The codification of the land use field (Desc_RC) must respect the classification shown in Table 3 2.
+![image008.jpg](/Images/image008.jpg)
 
 Table 3‑2 Soil Coverage Classification and related Run off Coefficient (RC) value.
 
