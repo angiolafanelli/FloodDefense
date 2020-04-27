@@ -132,7 +132,6 @@ At the end of the shapefiles loading in the QGIS project, the user must save the
 Figure 2‑1 starting button for the plug-in setting phase
 
  
-
 ![image003.jpg](/Images/image003.jpg)
 Figure 2‑2 Plug-in setting window.
 
