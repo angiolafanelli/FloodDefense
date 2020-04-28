@@ -222,6 +222,7 @@ Figure 3‑3 Window to define the protection measure adopted in a segment (EP_li
  
 
 3.2   EA Elevated Area
+
 The plug-in allows also the identification of new urban expansion areas that can be imagined at a higher height (Elevated Area) in order to be preserved from flooding events. The command that activates this feature is called EA: when activated, new urban expansion polygons can be defined and set at a higher elevation than the ground level. EA polygons cannot contain houses and streets, because they are considered areas in new urban expansion. Once the EA polygon is closed, the summary window of the just drawn element will open (Figure 3‑4). As seen before (EP case), the user must set the maximum height of the Elevated Area (EA) and, through a drop-down menu, choose the best technology protection for the area (Figure 3‑4).
 
 ![image012.jpg](/Images/image012.jpg)
@@ -268,6 +269,7 @@ Figure 3‑8 Window for defining options for "limited water_rec".
  
 
 3.4   WDS - Water Discharge System (WD)
+
 Once the receiving water areas are defined, it is necessary to create connections between the EP or EA and the drainage areas. The WD (Water Discharge System) button allows to edit the linear shapefile of the WDS: the user designs where to drain the accumulated water. Once this command is activated, the user will be able to draw the linear path from an EA (or EP) area to a WR perimeter (defined in the previous step) and the plug-in returns the calculations of the water balance by "virtually" moving the masses of water to the receptor bodies. Figure 3‑9 shows the screenshot for the characteristics of the connection pipes in order to drain the water.
 
 ![image017.jpg](/Images/image017.jpg)
@@ -285,6 +287,7 @@ Figure 3‑10 Setting up a receiving body with unlimited capacity
  
 
 3.5   DS – Creation of shut-off valves
+
 Once the design of the protection zones has been completed, if the shapefile of the sewage drains is available, it is possible to start the automatic fill with the shut-off valves; these valves will be automatically positioned in the intersection points among the perimeter EP, the sewers and the existing drainage system (Figure 3‑11).
 
 ![image019.png](/Images/image019.png)
@@ -306,6 +309,7 @@ Figure 3‑12 Window for defining the types of valves that can be implemented in
  
 
 3.6   Report generation and spatial elements’ query
+
 In the plug-in bar shown in Figure 2‑4 there are other buttons of the plug-in which perform the following functions:
 
 1) By activating this button it is possible to query with the mouse all the features created with the plug-in. In particular, it is possible to see all the attributes and, if the user is in the writing mode of that particular shapefile, it is possible to modify it.
@@ -320,6 +324,7 @@ In the plug-in bar shown in Figure 2‑4 there are other buttons of the plug-in 
  
 
 4  Custumizable libraries
+
 The technological solutions that the user can apply are customizable and can be increased modifying specific libraries. The file that manages these libraries is an editable text file (with a simple notepad) which is located inside the installation library of the plug-in. Its path is:
 
 "C: \ Users \ username \ .qgis2 \ python \ plugins \ fdtm"
