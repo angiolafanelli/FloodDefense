@@ -167,7 +167,9 @@ Figure 2‑4 Plug-in bar after the conclusion of the input data validation.
  
 
 3  The plug-in commands
+
 3.1   EP Elevated Perimeter
+
 The first and simplest protection strategy of an area is represented by the creation of different kind of barriers along its perimeter which, therefore, will be higher compared to the protected area level. This strategy can be implemented within the plug-in using the EP button. By activating the EP command and then through the editing button drawing a polygonal feature, the user can identify an area of particular interest to be protected from flooding events. Once the area has been delimitated, and thus the polygon feature is closed, the dialog box shown in Figure 3‑1 will open. This window summarizes:
 
 1. Geometric, altimetry and soil characteristics of the protected area;
