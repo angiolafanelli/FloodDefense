@@ -285,7 +285,7 @@ Figure 3‑10 Setting up a receiving body with unlimited capacity
 3.5   DS – Creation of shut-off valves
 Once the design of the protection zones has been completed, if the shapefile of the sewage drains is available, it is possible to start the automatic fill with the shut-off valves; these valves will be automatically positioned in the intersection points among the perimeter EP, the sewers and the existing drainage system (Figure 3‑11).
 
-![image019.png](/Images/image019.jpn)
+![image019.png](/Images/image019.png)
 Figure 3‑11 Creation of shut-off valves launched with the DS command.
 
 The user can then set the different types of valves by choosing them from the options of the DSV point shapefile (Figure 3‑12).
@@ -328,15 +328,15 @@ Each line of the code represents a specific technology. The commented and green 
 
 The structural sequence that describes each element of the EP library is:
 
--       Item value: design name of the element (in the plug-in it will be called as "Item_value");
+1) Item value: design name of the element (in the plug-in it will be called as "Item_value");
 
--       Item label: label that is displayed in the drop-down menu
+2) Item label: label that is displayed in the drop-down menu
 
--       Validation_rules: Field not significant
+3) Validation_rules: Field not significant
 
--       Mobile cost X unit: Field not significant
+3) Mobile cost X unit: Field not significant
 
--       Fixed cost X Unit: Unit cost per single element of measurement unit
+4) Fixed cost X Unit: Unit cost per single element of measurement unit
 
 Each element that describes a specific EP must be separated by a comma.
 
