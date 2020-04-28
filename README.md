@@ -231,13 +231,14 @@ For EA polygons, a single coefficient run-off value can be set and the plug-in i
  
 
 3.3   WR – Water Receiving bodies
+
 Once the perimeters and the areas are made safe, the user is called to evaluate how to dispose of the water masses accumulated in these areas. It is possible to plan some different solutions:
 
--       Tank’s storage;
+1) Tank’s storage;
 
--       increase water soil retention though solutions that aim at the run-off coefficient decrease (green roof for example);
+2) Increase water soil retention though solutions that aim at the run-off coefficient decrease (green roof for example);
 
--       The identification of "expansion areas" (green areas, basins, floodable parks) for the water storage.
+3) The identification of "expansion areas" (green areas, basins, floodable parks) for the water storage.
 
 In this phase it is necessary to activate the WR (Water Receptor) key which presents the three above options as shown in Figure 3‑5.
 
