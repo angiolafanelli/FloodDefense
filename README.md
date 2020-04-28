@@ -52,6 +52,7 @@ Summary
  
 
 1  Introduction
+
 The Flood Defense Toolkit Method (FDTM) is a plug-in developed for Qgis (version 2.18.13) and represents a planning tool for urban spaces providing a general assessment on the feasibility of a flood protection strategy in an urban area.
 
 The plug-in includes various types of technological solutions and their mutual combinations, which are site specific.
@@ -76,6 +77,7 @@ The file "qgis_customwidgets.py" is delivered together with the folder containin
  
 
 2  Plug-in strategies and settings
+
 The user can choose one of the following flood protection strategies available in the plug-in:
 
 1. raise the height of the perimeter which contains an area of particular interest (Elevated Perimeter - EP button);
@@ -98,6 +100,7 @@ At the end of the process for the identification of the areas that need protecti
  
 
 2.1   Necessary and optional data for the plugin
+
 The plug-in requires some cartographic data; some are necessary, some are, instead, optional.
 
 The necessary data are:
@@ -125,6 +128,7 @@ The plug-in needs that all the above listed data have the same geographical refe
  
 
 2.2   Data input into the plug-in
+
 At the end of the shapefiles loading in the QGIS project, the user must save the project with a name and then set up the plug-in setting window by activating the button shown in Figure 2‑1.
 
 ![image002.jpg](/Images/image002.jpg)
@@ -304,6 +308,7 @@ The types of valves that can be set are:
 3) Pump.
 
 ![image020.jpg](/Images/image020.png)
+
 Figure 3‑12 Window for defining the types of valves that can be implemented in the plug-in.
 
  
