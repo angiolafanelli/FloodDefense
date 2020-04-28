@@ -191,7 +191,7 @@ An example of the structure and a description of the coding fields for the shape
 
 
  
-![image007.jpg](/Images/image007.jpg)
+![image008.jpg](/Images/image008.jpg)
 
 Table 3‑1 Structure of the Land use cover shapefile.
 
@@ -200,19 +200,20 @@ Table 3‑1 Structure of the Land use cover shapefile.
 
 The codification of the land use field (Desc_RC) must respect the classification shown in Table 3 2.
 
-![image008.jpg](/Images/image008.jpg)
+![image009.png](/Images/image009.png)
 
 Table 3‑2 Soil Coverage Classification and related Run off Coefficient (RC) value.
 
 
 Once all the parameters have been set in these two summary windows, the data will be saved within the shapefile summary table (EP_poligon, Figure 3‑3). The types (TYP) and costs (COST) related to the default technology that can be modified in the next phase, are also displayed.
 
-![image009.png](/Images/image009.png)
+![image010.jpg](/Images/image010.jpg)
 
 Figure 3‑2 Elevated Perimeter layer attribute table
 
 Subsequently, the user can set the technological solutions adopted for raising each segment’s height along the perimeter (Figure 3‑3). The user can choose through a drop-down menu “protection measure” one of the technologies within the plugin's Elevated Perimeter library.
 
+![image012.png](/Images/image012.png)
 
 Figure 3‑3 Window to define the protection measure adopted in a segment (EP_lines) of the EP perimeter. For each segment of the perimeter, the user can choose a technology to be applied.
 
@@ -221,7 +222,7 @@ Figure 3‑3 Window to define the protection measure adopted in a segment (EP_li
 3.2   EA Elevated Area
 The plug-in allows also the identification of new urban expansion areas that can be imagined at a higher height (Elevated Area) in order to be preserved from flooding events. The command that activates this feature is called EA: when activated, new urban expansion polygons can be defined and set at a higher elevation than the ground level. EA polygons cannot contain houses and streets, because they are considered areas in new urban expansion. Once the EA polygon is closed, the summary window of the just drawn element will open (Figure 3‑4). As seen before (EP case), the user must set the maximum height of the Elevated Area (EA) and, through a drop-down menu, choose the best technology protection for the area (Figure 3‑4).
 
-![image010.jpg](/Images/image010.jpg)
+![image012.jpg](/Images/image012.jpg)
 
 Figure 3‑4 Window to define the protection measure adopted in an elevated area (EA).
 
@@ -240,13 +241,13 @@ Once the perimeters and the areas are made safe, the user is called to evaluate 
 
 In this phase it is necessary to activate the WR (Water Receptor) key which presents the three above options as shown in Figure 3‑5.
 
-![image011.png](/Images/image011.png)
+![image013.jpg](/Images/image013.jpg)
 
 Figure 3‑5 Three possible options for the Water Receptor
 
 When the first item called "point water_rec" is active the user can design the tank for the water. After the button activation, the user can start drawing the tank with the command “edit polygon feature”. There can be different types of cisterns that can be implemented by the plug-in (external, underground, raised etc.) and, again, there is a library that manages the description and the related costs for each cubic meter of water that can be accumulated. The Figure 3‑6 shows the window for the above listed tanks’ characteristics.
 
-![image012.jpg](/Images/image012.jpg)
+![image014.png](/Images/image014.png)
 
 Figure 3‑6 Window for setting the tanks’ characteristics.
 
