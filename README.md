@@ -213,7 +213,7 @@ Figure 3‑2 Elevated Perimeter layer attribute table
 
 Subsequently, the user can set the technological solutions adopted for raising each segment’s height along the perimeter (Figure 3‑3). The user can choose through a drop-down menu “protection measure” one of the technologies within the plugin's Elevated Perimeter library.
 
-![image012.png](/Images/image012.png)
+![image011.png](/Images/image011.png)
 
 Figure 3‑3 Window to define the protection measure adopted in a segment (EP_lines) of the EP perimeter. For each segment of the perimeter, the user can choose a technology to be applied.
 
@@ -253,12 +253,12 @@ Figure 3‑6 Window for setting the tanks’ characteristics.
 
 Another option for storing the water are the green roofs. When the "green roof water_rec" button is active (Figure 3‑6), the user will be able to draw them on the roof of the buildings inside the EP areas. Also in this case the user can choose from several available technologies listed in the customizable libraries. The Figure 3‑7 shows the screen for the identification of the green roofs’ characteristics.
 
-
+![image015.png](/Images/image015.png)
 Figure 3‑7 Window for setting the characteristics of the green roofs.
 
 The last type of button is "limited water_rec": the user outlines floodable areas (obviously without any type of buildings) and the plug-in calculates, considering the morphological characteristics of the identified area, how much water can be accumulated inside them. Another library manages the options that the planner can choose: floodable basin, floodable park and floodable garden (see Figure 3‑8).
 
-![image013.jpg](/Images/image013.jpg)
+![image016.jpg](/Images/image016.jpg)
 
 Figure 3‑8 Window for defining options for "limited water_rec".
 
@@ -267,7 +267,7 @@ Figure 3‑8 Window for defining options for "limited water_rec".
 3.4   WDS - Water Discharge System (WD)
 Once the receiving water areas are defined, it is necessary to create connections between the EP or EA and the drainage areas. The WD (Water Discharge System) button allows to edit the linear shapefile of the WDS: the user designs where to drain the accumulated water. Once this command is activated, the user will be able to draw the linear path from an EA (or EP) area to a WR perimeter (defined in the previous step) and the plug-in returns the calculations of the water balance by "virtually" moving the masses of water to the receptor bodies. Figure 3‑9 shows the screenshot for the characteristics of the connection pipes in order to drain the water.
 
-![image014.png](/Images/image014.png)
+![image017.jpg](/Images/image017.jpg)
 
 Figure 3‑9 Window for defining the characteristics of the connecting pipes to move the masses of water.
 
@@ -275,7 +275,7 @@ Figure 3‑9 Window for defining the characteristics of the connecting pipes to 
 
 If there is a river or another water receptor (e.g. the sea) characterized by a significant capacity to receive water volumes, the user can draw a WD line that ends in this kind of receiving body, without the need to draw the receiving WR (Figure 3‑10).
 
-![image015.png](/Images/image015.png)
+![image018.jpg](/Images/image018.jpg)
 
 Figure 3‑10 Setting up a receiving body with unlimited capacity
 
@@ -284,20 +284,20 @@ Figure 3‑10 Setting up a receiving body with unlimited capacity
 3.5   DS – Creation of shut-off valves
 Once the design of the protection zones has been completed, if the shapefile of the sewage drains is available, it is possible to start the automatic fill with the shut-off valves; these valves will be automatically positioned in the intersection points among the perimeter EP, the sewers and the existing drainage system (Figure 3‑11).
 
-
+![image019.png](/Images/image019.jpn)
 Figure 3‑11 Creation of shut-off valves launched with the DS command.
 
 The user can then set the different types of valves by choosing them from the options of the DSV point shapefile (Figure 3‑12).
 
 The types of valves that can be set are:
 
--       Interruption valve;
+1) Interruption valve;
 
--       Non return valve;
+2) Non return valve;
 
--       Pump.
+3) Pump.
 
-![image016.jpg](/Images/image016.jpg)
+![image020.jpg](/Images/image020.png)
 Figure 3‑12 Window for defining the types of valves that can be implemented in the plug-in.
 
  
@@ -305,11 +305,14 @@ Figure 3‑12 Window for defining the types of valves that can be implemented in
 3.6   Report generation and spatial elements’ query
 In the plug-in bar shown in Figure 2‑4 there are other buttons of the plug-in which perform the following functions:
 
--    By activating this button it is possible to query with the mouse all the features created with the plug-in. In particular, it is possible to see all the attributes and, if the user is in the writing mode of that particular shapefile, it is possible to modify it.
+1) By activating this button it is possible to query with the mouse all the features created with the plug-in. In particular, it is possible to see all the attributes and, if the user is in the writing mode of that particular shapefile, it is possible to modify it.
+![image021.jpg](/Images/image021.jpg)
 
--    This button activates or disable the summary window of the tables generated by the plug-in.
+2) This button activates or disable the summary window of the tables generated by the plug-in.
+![image022.jpg](/Images/image022.jpg)
 
--     With this command, the plug-in automatically generates a report containing all the maps and attribute tables of the elements created by the planner user.
+3) With this command, the plug-in automatically generates a report containing all the maps and attribute tables of the elements created by the planner user.
+![image023.jpg](/Images/image023.jpg)
 
  
 
@@ -336,16 +339,11 @@ The structural sequence that describes each element of the EP library is:
 
 Each element that describes a specific EP must be separated by a comma.
 
- 
-
- 
-
 For example, for the EP elements library at the moment you can choose one of the following technologies described by the "item_label" field: "existing" (existing wall), "sand" (sandbag), "airdam" (inflatable dam) and "concrete" (wall to be built).
 
 Libraries for EA, WR, WDS elements are managed in the same way. What changes is the measurement unit to which the unit cost refers. For example, for the EA elements, the cost refers to the price for a cubic meter of raised surface, while for the linear element of the WDS elements it is referred to the linear meter of construction. The implemented valves, also managed with a special library, report the price for each one.
 
- 
-
+![image024.jpg](/Images/image024.jpg)
 
 Figure 4‑1 Text file for the management of the libraries within the plug-in.
 
