@@ -174,7 +174,7 @@ The first and simplest protection strategy of an area is represented by the crea
 
 2. Calculation of the water volumes to be managed;
 
-3 Choice of the safeguard quota (MPD, in meters);
+3. Choice of the safeguard quota (MPD, in meters);
 
 4. Technologies for the protection of that specific perimeter (there is a first default technology that can be modified later for each segment of the perimeter).
 
