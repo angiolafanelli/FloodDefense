@@ -12,11 +12,9 @@ Manual
 
  
 
-Author
+Author: Angiola Fanelli – Thetis S.p.a. – angiola.fanelli@thetis.it
 
  
-
-·         Angiola Fanelli – Thetis S.p.a. – angiola.fanelli@thetis.it
 
 
  
@@ -114,6 +112,7 @@ The necessary data are:
 - Roads layer: linear shapefile of the roads;
 
 - Rainfall of the considered event - average precipitation (in millimeters): this data has to be entered in the beginning setting mask.
+
 
 The optional data managed by the plug-in are:
 
