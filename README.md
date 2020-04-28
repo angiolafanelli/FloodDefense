@@ -272,6 +272,7 @@ Figure 3‑6 Window for setting the tanks’ characteristics.
 Another option for storing the water are the green roofs. When the "green roof water_rec" button is active (Figure 3‑6), the user will be able to draw them on the roof of the buildings inside the EP areas. Also in this case the user can choose from several available technologies listed in the customizable libraries. The Figure 3‑7 shows the screen for the identification of the green roofs’ characteristics.
 
 ![image015.png](/Images/image015.png)
+
 Figure 3‑7 Window for setting the characteristics of the green roofs.
 
 The last type of button is "limited water_rec": the user outlines floodable areas (obviously without any type of buildings) and the plug-in calculates, considering the morphological characteristics of the identified area, how much water can be accumulated inside them. Another library manages the options that the planner can choose: floodable basin, floodable park and floodable garden (see Figure 3‑8).
@@ -311,6 +312,7 @@ Figure 3‑10 Setting up a receiving body with unlimited capacity
 Once the design of the protection zones has been completed, if the shapefile of the sewage drains is available, it is possible to start the automatic fill with the shut-off valves; these valves will be automatically positioned in the intersection points among the perimeter EP, the sewers and the existing drainage system (Figure 3‑11).
 
 ![image019.png](/Images/image019.png)
+
 Figure 3‑11 Creation of shut-off valves launched with the DS command.
 
 The user can then set the different types of valves by choosing them from the options of the DSV point shapefile (Figure 3‑12).
