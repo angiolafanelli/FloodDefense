@@ -74,6 +74,7 @@ In the stand-alone versions of Qgis 2.18 for the Windows application system, the
 
 The file "qgis_customwidgets.py" is delivered together with the folder containing the installation library Flood Defense Toolkit Method (fdtm).
 
+
  
 
 2  Plug-in strategies and settings
@@ -93,6 +94,7 @@ The user can choose one of the following flood protection strategies available i
 For each of the strategies listed above, the user can choose among different technical measures listed in the plug-in libraries. Within the plug-in are available customizable libraries, so that the user can choose the more suitable choices in order to protect a specific area. For example, each segment of an elevated protection perimeter can be further elevated by the planner through the use of different technologies: sandbags, concrete walls, inflatable dams, plastic dams etc.
 
 At the end of the process for the identification of the areas that need protection, the plug-in shows the whole map of the chosen works and some synthesis tables, which show also the total costs of the protection measures implemented. The management of the prices is customizable as well with specific libraries of protection measures.
+
 
  
 
@@ -125,7 +127,9 @@ The optional data managed by the plug-in are:
 
 The plug-in needs that all the above listed data have the same geographical reference system (EPSG).
 
- 
+
+
+
 
 2.2   Data input into the plug-in
 
@@ -169,6 +173,8 @@ Now all the plugin control buttons are activated and appear colored (Figure 2‑
 Figure 2‑4 Plug-in bar after the conclusion of the input data validation.
 
  
+
+
 
 3  The plug-in commands
 
@@ -224,6 +230,9 @@ Subsequently, the user can set the technological solutions adopted for raising e
 Figure 3‑3 Window to define the protection measure adopted in a segment (EP_lines) of the EP perimeter. For each segment of the perimeter, the user can choose a technology to be applied.
 
  
+ 
+ 
+ 
 
 3.2   EA Elevated Area
 
@@ -235,6 +244,8 @@ Figure 3‑4 Window to define the protection measure adopted in an elevated area
 
 For EA polygons, a single coefficient run-off value can be set and the plug-in is able to calculate the water accumulated inside the polygon after the considered rain event.
 
+ 
+ 
  
 
 3.3   WR – Water Receiving bodies
@@ -271,6 +282,9 @@ The last type of button is "limited water_rec": the user outlines floodable area
 Figure 3‑8 Window for defining options for "limited water_rec".
 
  
+ 
+ 
+ 
 
 3.4   WDS - Water Discharge System (WD)
 
@@ -288,6 +302,9 @@ If there is a river or another water receptor (e.g. the sea) characterized by a 
 
 Figure 3‑10 Setting up a receiving body with unlimited capacity
 
+ 
+ 
+ 
  
 
 3.5   DS – Creation of shut-off valves
@@ -312,6 +329,9 @@ The types of valves that can be set are:
 Figure 3‑12 Window for defining the types of valves that can be implemented in the plug-in.
 
  
+ 
+ 
+ 
 
 3.6   Report generation and spatial elements’ query
 
@@ -326,7 +346,10 @@ In the plug-in bar shown in Figure 2‑4 there are other buttons of the plug-in 
 3) With this command, the plug-in automatically generates a report containing all the maps and attribute tables of the elements created by the planner user.
 ![image023.jpg](/Images/image023.jpg)
 
- 
+
+
+
+
 
 4  Custumizable libraries
 
